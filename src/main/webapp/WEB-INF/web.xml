@@ -1,0 +1,78 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>RegisterAccount</servlet-name>
+  	<display-name>RegisterAccount</display-name>
+  	<description></description>
+  	<servlet-class>com.quest.controller.RegisterAccount</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>EditMember</servlet-name>
+  	<display-name>EditMember</display-name>
+  	<description></description>
+  	<servlet-class>com.quest.controller.EditMember</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteMember</servlet-name>
+  	<display-name>DeleteMember</display-name>
+  	<description></description>
+  	<servlet-class>com.quest.controller.DeleteMember</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EditTrainer</servlet-name>
+  	<display-name>EditTrainer</display-name>
+  	<description></description>
+  	<servlet-class>com.quest.controller.EditTrainer</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteTrainer</servlet-name>
+  	<display-name>DeleteTrainer</display-name>
+  	<description></description>
+  	<servlet-class>com.quest.controller.DeleteTrainer</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Feedback</servlet-name>
+  	<display-name>Feedback</display-name>
+  	<description></description>
+  	<servlet-class>com.quest.controller.Feedback</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddTrainer</servlet-name>
+  	<display-name>AddTrainer</display-name>
+  	<description></description>
+  	<servlet-class>com.quest.controller.AddTrainer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RegisterAccount</servlet-name>
+  	<url-pattern>/register-account</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EditMember</servlet-name>
+  	<url-pattern>/edit-member</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteMember</servlet-name>
+  	<url-pattern>/delete-member</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EditTrainer</servlet-name>
+  	<url-pattern>/edit-trainer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteTrainer</servlet-name>
+  	<url-pattern>/delete-trainer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Feedback</servlet-name>
+  	<url-pattern>/feedback</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddTrainer</servlet-name>
+  	<url-pattern>/add-trainer</url-pattern>
+  </servlet-mapping>
+</web-app>
